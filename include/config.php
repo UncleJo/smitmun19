@@ -6,10 +6,10 @@
 //function to get an instance of the mysqli
 
 function GetMysqlInstance() {
-    $host = "localhost";
-    $user = "root";
-    $password = "";
-    $database = "dpsgmun";
+    $host = "loct";
+    $user = "smin";
+    $password = "Rq:85F";
+    $database = "smitme";
     
 //    $host = "localhost";
 //    $user = "dpsgx10m_admin";
