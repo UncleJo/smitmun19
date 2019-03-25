@@ -28,7 +28,7 @@
             <article id="main">
                 <header>
                     <h2>DATA BANK</h2>
-                    <p>Keeping all infomation live and accessible</p>
+                    <p>Keeping al infomation live and accessible</p>
                 </header>
                 <section class="wrapper style5">
                     <div class="inner">
