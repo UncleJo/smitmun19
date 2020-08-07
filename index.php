@@ -1,41 +1,76 @@
 <!DOCTYPE HTML>
 
 <html>
-    <head>
-        <title>Summit Sikkim 2019</title>
-        <meta charset="utf-8" />
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Summit Sikkim 2020</title>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <style>
+            html {
+                overflow: scroll;
+                overflow-x: hidden;
+                }
+                ::-webkit-scrollbar {
+                 width: 0px;  /* Remove scrollbar space */
+                    background: transparent;  /* Optional: just make scrollbar invisible */
+                }
+        </style>
+        <link rel="apple-touch-icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico">
         <link rel="stylesheet" href="assets/css/main.css" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <style>
+.dropdowns {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowns-contents {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdowns:hover .dropdowns-contents {
+  display: block;
+}
+</style>
     </head>
     <body class="landing">
-
-        <!-- Page Wrapper -->
-        <div id="page-wrapper">
-
-            <!-- Header -->
+        <video autoplay muted loop id="myVideo" width=100%>
+            <source src="4.m4v" type="video/mp4">
+          </video>
             <header id="header" class="alt">
-                <?php include_once 'include/menu.php'; ?>
+              <?php include_once 'include/menu.php'; ?>
             </header>
-
-            <!-- Banner -->
             <section id="banner">
                 <div class="inner">
-                    <h2>Summit Sikkim <b>2019</b></h2>
+                    <h2>Summit Sikkim <b>2020</b></h2>
                     <p style="margin-top: 20px;"><b>Rise, Lead, Grow.</b><br> <br>
-                        Join us at the conference <br />
-                        from 30th to 31st March 2019</p>
+                        Conference has been delayed <br />
+                        due to ongoing COVID-19 pandemic.</p>
                     <ul class="actions">
-                        <li><a href="registers.php" class="button special"> REGISTRATION (SMITians)</a></li>
-                        <li><a href="register.php" class="button special">REGISTRATION (non-SMITians)</a></li>
+                        <li>
+                          <div class="dropdowns">
+                            <a class="button special"> REGISTRATIONS</a>
+                            <div class="dropdowns-contents">
+                              <a href="http://bit.ly/Summit-Sikkim-2020-Registrations" class="button special">Regular</a><br>
+                              <a href="http://bit.ly/Summit-Sikkim-2020-SMITians" class="button special">SMITians</a><br>
+                          </div>
+                          </div>
+                        </li>
+                         <li><a href="covid-19.php" class="button special">Covid-19 statement</a></li>
                     </ul>
                 </div>
                 <a href="#two" class="more scrolly">Learn More</a>
             </section>
 
-            <!-- One -->
+            <!-- One 
           <section id="one" class="wrapper style1 special">
                 <div class="inner">
                     <header class="major">
@@ -43,69 +78,55 @@
                     </header>
                     <ul class="icons major">
                         <li><a href="#" style="text-decoration:none"><span class="icon fa-users major style3"></span><br><br><br><span class="label">Organizing Committee</span></span></a></li>
-                        
+
                         <li><span class="icon fa-users major style3"></span><br><br><br><span class="label">Excecutive Board</span></span></li>
-                        
+
                         <li><a href="sponsors.php" style="text-decoration:none"><span class="icon fa-users major style3"></span><br><br><br><span class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Sponsors &nbsp&nbsp&nbsp&nbsp&nbsp  </span></span></a></li>
-                        
+
                     </ul>
                 </div>
-            </section>
+            </section>-->
 
             <!-- Two -->
             <section id="two" class="wrapper alt style2">
                 <section class="spotlight">
-                    <div class="image"><img  src="images/8.jpg" alt="" /></div><div class="content">
-                        <a style="text-decoration: none;" href="#">
-                            <h2><b></b> All India Political Parties Meet (AIPPM)<br />
+                    <div class="image"><img  src="images/UNSC-Default.jpg" alt="" /></div><div class="content">
+                        <a style="text-decoration: none;" href="unsc.php">
+                            <h2><b></b>United Nations Security Council (UNSC)<br />
                             </h2>
-                            <p>Agenda: <i>National Security.</i></p>
-                                <p><font color="yellow"></font></p>
+                            <p>Agenda: <i>Situation of Crisis in Yemen.</i></p>
+                                <p><font color="yellow">Click here to know more --></font></p>
                         </a>
                     </div>
                 </section>
                 <section class="spotlight">
-                    <div class="image"><img src="images/ga.jpg" alt="" /></div><div class="content">
+                    <div class="image"><img src="images/DISEC-Default.webp" alt="" /></div><div class="content">
+                        <a style="text-decoration: none;" href="undp.php">
+                            <h2>United Nations Development Programme (UNDP)
+                            </h2>
+                            <p>Agenda: <i>Sustainable Development with an emphasis on Climate Change.</i> </p>
+                                <p>
+                            <font color="yellow">Click here to know more --></font></p>
+                        </a></div>
+                </section>
+                <section class="spotlight">
+                    <div class="image"><img src="images/AIPPM-Default.jpg" alt="" /></div><div class="content">
+                        <a href="aippm.php">
+                            <h2>All India Political Party Meet (AIPPM)
+                            </h2>
+                            <p>Agenda: <i>Implementation of Uniform Civil Code (UCC)</i> </p>
+                                <p>
+                            <font color="yellow">Click here to know more --></font></p>
+                        </a></div>
+                </section>
+                <section class="spotlight">
+                    <div class="image"><img src="images/IPC-Default.jpg" alt="" /></div><div class="content">
                         <a style="text-decoration: none;" href="#">
-                            <h2>General Assembly (GA)<br />
+                            <h2>International Press Conference (IPC)
                             </h2>
-                            <p>Agenda: <i>Arms trade policy/Euthanasian rights. </i></p>
-                                <p>
-                                <font color="yellow" ></font></font></p>
-                        </a>
-                    </div>
-                </section>
-                <section class="spotlight">
-                    <div class="image"><img src="images/who.jpg" alt="" /></div><div class="content">
-                        <a style="text-decoration: none;" href="#">
-                            <h2>World Health Organization (WHO)
-                            </h2>
-                            <p>Agenda: <i>Substance Abuse.</i> </p>
-                                <p>
-                            <font color="yellow"></font></p>
                         </a></div>
                 </section>
-                <section class="spotlight">
-                    <div class="image"><img src="images/bb.jpg" alt="" /></div><div class="content">
-                        <a href="#">
-                            <h2>Emergency Council on Economic Crisis (ECEC)
-                            </h2>
-                            <p>Agenda: <i>Adoption of Hybrid Blockchain-based Universal Cryptocurrency</i> </p>
-                                <p>
-                            <font color="yellow"></font></p>
-                        </a></div>
-                </section>
-                <section class="spotlight">
-                    <div class="image"><img src="images/z.jpg" alt="" /></div><div class="content">
-                        <a href="#">
-                            <h2>Security Council (SC)<br />
-                            </h2>
-                            <p>Agenda: <i>War on Terrorism</i></p>
-                                <p>
-                            <font color="yellow"></font></p>
-                        </a></div>
-                </section>
-                
+
             <!-- Three -->
             <section id="three" class="wrapper style3 special">
                 <div class="inner">
@@ -115,22 +136,38 @@
                                                 fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
                                         </header>-->
                     <ul class="features">
+                        
+                        
                         <li class="icon fa-paper-plane-o">
                             <a href="ROP.php" style="text-decoration: none;"><h3>RULES OF PROCEDURE</h3>
-                                <p>Summit Sikkim 2019 on dates 30th - 31st March; following the UN4MUN Rules of Procedure</p></a>
+                                <p>Summit Sikkim follows Rules of Procedure defined under UNAUSA format. </p></a>
                         </li>
+                        
+                        
                         <li class="icon fa-laptop">
-                            <a href="" style="text-decoration: none;"><h3>ABOUT SUMMIT SIKKIM</h3>
-                                <p></p></a>
+                            <a href="about.php" style="text-decoration: none;"><h3>ABOUT SUMMIT SIKKIM</h3>
+                                <p>Our Mission and Motives that will be reflecred in Summit Sikkim 2020.</p></a>
                         </li>
-                       <!-- <li class="icon fa-calendar-check-o">
-                            <h3>Itenary</h3>
-                            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+                        
+                        <li class="icon fa-calendar-check-o">
+                            <div class="dropdowns">
+                            <h3>Itenary and Dress Code</h3>
+                             <p>Conference Schedules and the Dress Code, All in one Place!</p></a>
+                            <div class="dropdowns-contents">
+                              <a href="covid-19.php" class="button special">Conference Delayed due to ongoing COVID-19 Pandemic</a><br>
+                            </div>
                         </li>
+                        
+                        
                         <li class="icon fa-headphones">
+                          <div class="dropdowns">
                             <h3>STUDY GUIDE</h3>
-                            <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                        </li>-->
+                            <p>Some resources on and about the agendas that will get you to speed for the committees.</p>
+                          <div class="dropdowns-contents">
+                              <a class="button special">Not Yet Released</a><br>
+                          </div>
+                        </div>
+                      </li>
                     </ul>
                 </div>
             </section>
@@ -173,9 +210,9 @@
                     </div>
                 </section>
             </section>
-            <!-- Footer -->
+             Footer -->
             <footer id="footer">
-                <?php include_once 'include/footer.php'; ?>
+              <?php include_once 'include/footer.php'; ?>
             </footer>
 
         </div>
@@ -186,7 +223,6 @@
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/skel.min.js"></script>
         <script src="assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
 
     </body>

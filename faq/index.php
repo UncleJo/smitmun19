@@ -45,11 +45,11 @@
                         </div> <!-- cd-faq-content -->
                     </li>
                     <li>
-                        <a class="cd-faq-trigger" href="#0">What is Summit Sikkim 2019?</a>
+                        <a class="cd-faq-trigger" href="#0">What is Summit Sikkim 2020?</a>
                         <div class="cd-faq-content">
                             <p>
                             
-                            Summit Sikkim 2019 is the State Wide MUN organised by Sikkim Manipal Institute of Technology Model United Nations.
+                            Summit Sikkim 2020 is the State Wide MUN organised by Sikkim Manipal Institute of Technology Model United Nations.
                             </p>
                         </div> <!-- cd-faq-content -->
                     </li>
@@ -73,7 +73,7 @@
                         </div>
                     </li>
                     <li>
-                          <a class="cd-faq-trigger" href="#0">How do I keep myself updated with the Summit Sikkim 2019 news?</a>
+                          <a class="cd-faq-trigger" href="#0">How do I keep myself updated with the Summit Sikkim 2020 news?</a>
                           <div class="cd-faq-content">
                               <p>One can keep themselves updated with all the news pertinent to the conference through the mediums of social media pages such as:</p><br>
                               <ul>
@@ -97,7 +97,7 @@
                     <li>
                         <a class="cd-faq-trigger" href="#0">What are the conference dates?</a>
                         <div class="cd-faq-content">
-                            <p>Summit Sikkim 2019 will be held from 30th of March 2019 to 31st of March 2019.</p>
+                            <p>Summit Sikkim 2020 will be held from 3rd of April 2020 to 5th of April 2020.</p>
 
 
                         </div> <!-- cd-faq-content -->
@@ -130,14 +130,18 @@
 			<li>
 				<a class="cd-faq-trigger" href="#0">How much does the conference cost?</a>
 				<div class="cd-faq-content">
-					<p>Delegates need to deposit a sum of Rs. 1200 as conference fee if they are an SMITian. If they live outside or are not an SMITian, they have to pay Rs. 1300.</p>
+					<p>Delegates need to deposit a sum of Rs. 800 as conference fee if they are an SMITian. If they live outside or are not an SMITian, they have to pay Rs. 1400.</p>
+					<p>We also have an early bird offer for the people who aren't SMITians where you'll pay Rs. 1200/- if you register before ...</p>
 				</div> <!-- cd-faq-content -->
 			</li>
                         <li>
 				<a class="cd-faq-trigger" href="#0">How do I make the payment?</a>
 				<div class="cd-faq-content">
-					<p>Participating delegates can make the payment using GPAY, UPI, PAYTM. After making the payment they have to send the screenshot of the transaction to 8927285017 (Whatsapp) along with your name and email to confirm your registration.</p>
-					<p>Payment options are as follows -<br><br>UPI address - 8927285017@upi<br>GPAY Number - 8927285017<br>PayTM Walled Number - 8927285017</p>
+					<p>Participating delegates can make the payment using GPAY, UPI or Bank Transfer. After making the payment they have to upload the screenshot in the Forms provided to confirm your registration.</p>
+					<p>The full process for registrations are given in the Forms that is linked in the home page. </p>
+					<p>Payment options are as follows -<br><br>UPI address - 9382393165@paytm<br>GPAY Number - 9382393165<br><br><b>Bank Transfer Details</b><br>Name - Aditya Upadhyay<br>
+Account No. - 919382393165<br>
+IFSC Code - PYTM0123456 </p>
 				</div> <!-- cd-faq-content -->
                             </li></ul>
             </div> <!-- cd-faq-items -->

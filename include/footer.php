@@ -5,8 +5,8 @@
     <li><a href="mailto:info@smitmun.com" class="icon fa-envelope-o"><span class="label" >Email</span></a></li>
 </ul>
 <ul class="copyright">
-    <li>&copy;2019 Sikkim Manipal Institute of Technology. All rights reserved.</li>
-       &nbsp;&nbsp;&nbsp; <a href="PP.php" style="text-decoration: none;">Privacy Policy</a>
-    <li>Designed by <a href="http://www.sanxchep.info/?v=1">Sanxchep Sharma.</a></li>
+    <li>&copy;2020 Sikkim Manipal Institute of Technology. All rights reserved.</li>
+       &nbsp;&nbsp;&nbsp; <a href="privacypolicy.php" style="text-decoration: none;">Privacy Policy</a>
+    <li>Designed by <a href="https://www.sanxchep.com">Sanxchep Sharma.</a></li>
     </li>
 </ul>
